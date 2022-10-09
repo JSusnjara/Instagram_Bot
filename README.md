@@ -1,8 +1,6 @@
 # Instagram_Bot
 A simple Instagram bot written in python using selenium framework. Can be used for automated liking of recent posts from custom URLs.
 
-&nbsp;
-
 ## Description
 This bot logs a user into Instagram account with login info provided in `config.ini` file. After that, at a random interval (between 1 to 6 hours) 
 starts a new liking cyclus. In each cyclus, bot iterates through provided urls and, at a random interval, likes a random number of most recent posts.
@@ -10,8 +8,6 @@ starts a new liking cyclus. In each cyclus, bot iterates through provided urls a
 The purpose of random is to mitigate the risk of Instagram recognizing automated activity on the account, which may result with a ban.
 
 The bot is set to do the average of 140 likes a day, and 20 likes an hour, to make sure to avoid ban of a new Instagram account.
-
-&nbsp;
 
 ## Usage
 
